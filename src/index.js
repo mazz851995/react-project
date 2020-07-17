@@ -10,10 +10,10 @@ import * as serviceWorker from "./serviceWorker";
 // import App from './App';
 // import ReactRouterDemo from './ReactRouter/ReactRouterDemo';
 // import GeekyShowDemo from './GeekyShowDemo/GeekyShowDemo'
-// import WelcomeMessage from './WelcomeMessage/WelcomeMessage'
+import WelcomeMessage from "./WelcomeMessage/WelcomeMessage";
 // import SpinnerLoader from './SpinnerLoader/SpinnerLoader'
 // import LearnBootstrap from './LearnBootstrap/LearnBootstrap';
-import GetPokemon from "./GetPokemon/GetPokemon";
+// import GetPokemon from "./GetPokemon/GetPokemon";
 
 // ---------------------------------------------------------------------------------------------
 ReactDOM.render(
@@ -21,11 +21,11 @@ ReactDOM.render(
     {/* <ReactRouterDemo/> */}
     {/* <App /> */}
     {/* <GeekyShowDemo age="50"></GeekyShowDemo> */}
-    {/* <WelcomeMessage/> */}
+    <WelcomeMessage />
     {/* <SpinnerLoader/> */}
     {/* <LearnBootstrap/> */}
     {/* <TimerTick/> */}
-    <GetPokemon />
+    {/* <GetPokemon /> */}
   </>,
   document.getElementById("root")
 );
