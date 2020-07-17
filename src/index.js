@@ -1,17 +1,32 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+// **********Packages Imports*******************************
+import React from "react";
+import ReactDOM from "react-dom";
+import * as serviceWorker from "./serviceWorker";
+// rafce => Functional component ; rce => Class component
 
+// **********COMPONENT IMPORTS***************************
+
+// import TimerTick from './TimerTick/TimerTick';
+// import App from './App';
+// import ReactRouterDemo from './ReactRouter/ReactRouterDemo';
+// import GeekyShowDemo from './GeekyShowDemo/GeekyShowDemo'
+// import WelcomeMessage from './WelcomeMessage/WelcomeMessage'
+// import SpinnerLoader from './SpinnerLoader/SpinnerLoader'
+// import LearnBootstrap from './LearnBootstrap/LearnBootstrap';
+import GetPokemon from "./GetPokemon/GetPokemon";
+
+// ---------------------------------------------------------------------------------------------
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <>
+    {/* <ReactRouterDemo/> */}
+    {/* <App /> */}
+    {/* <GeekyShowDemo age="50"></GeekyShowDemo> */}
+    {/* <WelcomeMessage/> */}
+    {/* <SpinnerLoader/> */}
+    {/* <LearnBootstrap/> */}
+    {/* <TimerTick/> */}
+    <GetPokemon />
+  </>,
+  document.getElementById("root")
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();

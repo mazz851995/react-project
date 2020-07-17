@@ -1,0 +1,38 @@
+.menu{
+    padding: 30px 5px;
+    background: #cc7a7aad;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around; 
+    padding: 0;   
+}
+.menu ul li{
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 20px;    
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.aboutUs{
+    min-height: 300px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactUs{
+    min-height: 300px;
+    background-color: #4500ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active_class {
+    color: white;
+}
+a.active_class{
+    text-decoration: underline !important;
+}
