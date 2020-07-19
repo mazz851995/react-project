@@ -7,10 +7,10 @@ import * as serviceWorker from "./serviceWorker";
 // **********COMPONENT IMPORTS***************************
 
 // import TimerTick from './TimerTick/TimerTick';
-// import App from './App';
+import App from "./App";
 // import ReactRouterDemo from './ReactRouter/ReactRouterDemo';
 // import GeekyShowDemo from './GeekyShowDemo/GeekyShowDemo'
-import WelcomeMessage from "./WelcomeMessage/WelcomeMessage";
+// import WelcomeMessage from "./WelcomeMessage/WelcomeMessage";
 // import SpinnerLoader from './SpinnerLoader/SpinnerLoader'
 // import LearnBootstrap from './LearnBootstrap/LearnBootstrap';
 // import GetPokemon from "./GetPokemon/GetPokemon";
@@ -19,9 +19,9 @@ import WelcomeMessage from "./WelcomeMessage/WelcomeMessage";
 ReactDOM.render(
   <>
     {/* <ReactRouterDemo/> */}
-    {/* <App /> */}
+    <App />
     {/* <GeekyShowDemo age="50"></GeekyShowDemo> */}
-    <WelcomeMessage />
+    {/* <WelcomeMessage /> */}
     {/* <SpinnerLoader/> */}
     {/* <LearnBootstrap/> */}
     {/* <TimerTick/> */}
